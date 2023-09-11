@@ -215,8 +215,14 @@ body{
         font-size: 25px;
     }
     .popup{
-        padding: 220px;
+        /* padding: 200px; */
     }
+    .pop_wrapper{
+        padding: 30px;
+        width: 415px;
+        height: 300px;
+    }
+
     
    
 }
@@ -245,5 +251,36 @@ body{
     .section_wrapper{
         padding: .1px;
     }
-    
+    .pop_wrapper{
+        padding: 10px;
+        width: 380px;
+        height: 300px;
+    }
+    .pop_content_ h1{
+        font-size: 30px;
+    }
+    .pop_content_ h2{
+        font-size: 12px;
+        width: 320px;
+    }
+    .popup{
+        padding: 200px;
+    }
+}
+@media (min-width: 300px) and (max-width: 380px) {
+    .pop_wrapper{
+        padding: 10px;
+        width: 380px;
+        height: 300px;
+    }
+    .pop_content_ h1{
+        font-size: 30px;
+    }
+    .pop_content_ h2{
+        font-size: 12px;
+        width: 320px;
+    }
+    .popup{
+        padding: 100;
+    }
 }
